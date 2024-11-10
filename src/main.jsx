@@ -14,7 +14,6 @@ import EditPost from "./pages/EditPost";
 import Post from "./pages/Post";
 import AllPosts from "./pages/AllPosts";
 import Portfolio from "./pages/Portfolio.jsx";
-import Playlister from "./pages/smallprojects/playlister/Playlister.jsx";
 
 const router = createBrowserRouter([
   {
@@ -72,12 +71,6 @@ const router = createBrowserRouter([
         path: "/portfolio",
         element: (
             <Portfolio/>
-        ),
-      },
-      {
-        path: "/playlister",
-        element: (
-            <Playlister/>
         ),
       },
     ],
